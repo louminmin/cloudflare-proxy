@@ -13,7 +13,7 @@ const routes = {
   "k8s.pmiii.us.kg": "https://registry.k8s.io",
   "ghcr.pmiii.us.kg": "https://ghcr.io",
   "cloudsmith.pmiii.us.kg": "https://docker.cloudsmith.io",
-  "pypi.pmiii.us.kgoown": "https://pypi.org",
+  "pypi.pmiii.us.kg": "https://pypi.org",
   "npmjs.pmiii.us.kg": "https://registry.npmjs.org",
   "cnpmjs.pmiii.us.kg": "http://r.cnpmjs.org",
 };
