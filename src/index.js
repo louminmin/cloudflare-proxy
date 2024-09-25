@@ -6,16 +6,16 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
-  "docker.pmiii.us.kg.com": "https://registry-1.docker.io",
-  "quay.pmiii.us.kg.com": "https://quay.io",
-  "gcr.pmiii.us.kg.com": "https://gcr.io",
-  "k8s-gcr.pmiii.us.kg.com": "https://k8s.gcr.io",
-  "k8s.pmiii.us.kg.com": "https://registry.k8s.io",
-  "ghcr.pmiii.us.kg.com": "https://ghcr.io",
-  "cloudsmith.pmiii.us.kg.com": "https://docker.cloudsmith.io",
-  "pypi.pmiii.us.kgoown.com": "https://pypi.org",
-  "npmjs.pmiii.us.kg.com": "https://registry.npmjs.org",
-  "cnpmjs.pmiii.us.kg.com": "http://r.cnpmjs.org",
+  "docker.pmiii.us.kg": "https://registry-1.docker.io",
+  "quay.pmiii.us.kg": "https://quay.io",
+  "gcr.pmiii.us.kg": "https://gcr.io",
+  "k8s-gcr.pmiii.us.kg": "https://k8s.gcr.io",
+  "k8s.pmiii.us.kg": "https://registry.k8s.io",
+  "ghcr.pmiii.us.kg": "https://ghcr.io",
+  "cloudsmith.pmiii.us.kg": "https://docker.cloudsmith.io",
+  "pypi.pmiii.us.kgoown": "https://pypi.org",
+  "npmjs.pmiii.us.kg": "https://registry.npmjs.org",
+  "cnpmjs.pmiii.us.kg": "http://r.cnpmjs.org",
 };
 
 function routeByHosts(host) {
